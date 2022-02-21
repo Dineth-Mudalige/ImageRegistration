@@ -15,6 +15,7 @@
 \usepackage{longtable}
 \usepackage{multirow}
 \usepackage{graphicx}
+\usepackage{hyperref}
 
 \usepackage[automake]{glossaries} %Load glossaries package
 \makeglossaries
@@ -60,7 +61,7 @@ The main components in the registration framework are as follows.
     \item Similarity metric - Measure of how well an image is matched by the transformed image. This is the key component that controls the registration process.
     \item Optimizer - Updates the parameters based on the outputs of the cost function
 \end{enumerate}
-\section*{Methodology}
+\section*{Methodology[\href{https://github.com/Dineth-Mudalige/ImageRegistration.git}{\LARGE{Github Repo}}]}
 After loading the images, the registration framework is applied to the images. The most important part is to select the ideal transform or function to be used as the main components of the framework.  
 \subsection*{Visualization}
 The two images are visualized initially and they are placed one over another using alpha blending. Alpha blending is used to combine the two images in such a manner that both images are visible in the single image.  
